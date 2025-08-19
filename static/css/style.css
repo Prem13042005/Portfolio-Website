@@ -1,4 +1,4 @@
-/* static/css/style.css - CSS for exact UI replication */
+/* static/css/style.css - Updated CSS with Hover Effects and Navbar Background */
 
 body {
     margin: 0;
@@ -9,9 +9,10 @@ body {
 }
 
 header {
-    background: #000;
+    background: linear-gradient(to bottom, #000, #1a1a1a);
     text-align: center;
     padding: 50px 20px;
+    position: relative;
 }
 
 .logo-circle {
@@ -41,17 +42,27 @@ h1 {
     cursor: pointer;
 }
 
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: center;
     gap: 20px;
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #00bfff;
 }
 
 section {
@@ -82,6 +93,12 @@ h2 {
     background: #333;
     padding: 20px;
     border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.icon-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 191, 255, 0.3);
 }
 
 .icon {
@@ -113,6 +130,12 @@ h2 {
     background: #333;
     padding: 20px;
     border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 191, 255, 0.3);
 }
 
 .progress-bar {
@@ -156,6 +179,11 @@ h2 {
     padding: 10px 20px;
     border-radius: 20px;
     font-size: 0.9em;
+    transition: background 0.3s;
+}
+
+.tech-bubbles span:hover {
+    background: #444;
 }
 
 .projects-subtitle {
@@ -175,6 +203,12 @@ h2 {
     padding: 20px;
     border-radius: 10px;
     text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 191, 255, 0.3);
 }
 
 .project-tech {
@@ -195,6 +229,12 @@ h2 {
     padding: 15px;
     border-radius: 10px;
     text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.small-project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 191, 255, 0.3);
 }
 
 .contact-subtitle {
@@ -283,5 +323,10 @@ footer {
 
     nav ul {
         flex-direction: column;
+    }
+
+    nav {
+        position: static;
+        margin-top: 20px;
     }
 }
