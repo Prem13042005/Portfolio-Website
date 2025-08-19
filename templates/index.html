@@ -1,0 +1,192 @@
+<!-- templates/index.html - Frontend HTML -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="/static/js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-circle"></div>
+            <h1>Hi, I'm Prem Rajput</h1>
+            <p class="tagline">Computer Science & Engineering Student<br>Passionate about creating innovative solutions through elegant code.<br>Specializing in full-stack development, algorithms, and modern web technologies.</p>
+            <button class="download-btn">Download Resume</button>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p class="about-text">Passionate CS student with a drive for innovation and excellence.<br>I'm a dedicated Computer Science and Engineering student with a<br>passion for solving complex problems through elegant code. My<br>journey in tech started with curiosity and has evolved into a deep<br>commitment to creating impactful software solutions, data structures,<br>and modern web frameworks. I'm always eager to learn new<br>technologies that build software to gain a different<br>perspective.<br><br>Problem Solving • Team Collaboration • Continuous Learning • Innovation</p>
+        <div class="about-icons">
+            <div class="icon-card">
+                <div class="icon">🔬</div>
+                <h3>Computer Science Education</h3>
+            </div>
+            <div class="icon-card">
+                <div class="icon">💻</div>
+                <h3>Full-Stack Development Experience</h3>
+            </div>
+            <div class="icon-card">
+                <div class="icon">🏆</div>
+                <h3>Academic Excellence</h3>
+            </div>
+            <div class="icon-card">
+                <div class="icon">🛠️</div>
+                <h3>Software Engineer Role</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <p class="skills-subtitle">A comprehensive toolkit for modern software development.</p>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <div class="progress-bar"><span>TypeScript</span><div class="bar"><div style="width: 90%;"></div></div>90%</div>
+                <div class="progress-bar"><span>Python</span><div class="bar"><div style="width: 85%;"></div></div>85%</div>
+                <div class="progress-bar"><span>C++</span><div class="bar"><div style="width: 75%;"></div></div>75%</div>
+            </div>
+            <div class="skill-category">
+                <h3>Web Development</h3>
+                <div class="progress-bar"><span>React/Next.js</span><div class="bar"><div style="width: 90%;"></div></div>90%</div>
+                <div class="progress-bar"><span>Node.js/Express</span><div class="bar"><div style="width: 85%;"></div></div>85%</div>
+                <div class="progress-bar"><span>HTML/JS/CSS</span><div class="bar"><div style="width: 90%;"></div></div>90%</div>
+                <div class="progress-bar"><span>Tailwind CSS</span><div class="bar"><div style="width: 80%;"></div></div>80%</div>
+            </div>
+            <div class="skill-category">
+                <h3>Databases & Tools</h3>
+                <div class="progress-bar"><span>MongoDB</span><div class="bar"><div style="width: 80%;"></div></div>80%</div>
+                <div class="progress-bar"><span>PostgreSQL</span><div class="bar"><div style="width: 75%;"></div></div>75%</div>
+                <div class="progress-bar"><span>Git/GitHub</span><div class="bar"><div style="width: 90%;"></div></div>90%</div>
+                <div class="progress-bar"><span>Docker</span><div class="bar"><div style="width: 70%;"></div></div>70%</div>
+            </div>
+            <div class="skill-category">
+                <h3>Computer Science</h3>
+                <div class="progress-bar"><span>Data Structures</span><div class="bar"><div style="width: 90%;"></div></div>90%</div>
+                <div class="progress-bar"><span>Algorithms</span><div class="bar"><div style="width: 85%;"></div></div>85%</div>
+                <div class="progress-bar"><span>System Design</span><div class="bar"><div style="width: 75%;"></div></div>75%</div>
+                <div class="progress-bar"><span>Database Design</span><div class="bar"><div style="width: 80%;"></div></div>80%</div>
+            </div>
+        </div>
+        <h3 class="tech-title">Technologies I Work With</h3>
+        <div class="tech-bubbles">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>TypeScript</span>
+            <span>Python</span>
+            <span>MongoDB</span>
+            <span>PostgreSQL</span>
+            <span>Docker</span>
+            <span>AWS</span>
+            <span>Git</span>
+            <span>Tailwind</span>
+            <span>Next.js</span>
+            <span>Express.js</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <p class="projects-subtitle">Showcasing innovative solutions and technical expertise.</p>
+        <div class="featured-projects">
+            <div class="project-card">
+                <h3>E-Commerce Web Application ⭐</h3>
+                <p>Full-stack e-commerce platform with React, Node, and MongoDB. Features user authentication, payment integration, and admin dashboard.</p>
+                <div class="project-tech">React • Node.js • MongoDB • Stripe • JWT</div>
+            </div>
+            <div class="project-card">
+                <h3>AI-Powered Task Manager 🤖</h3>
+                <p>Smart task management app with AI-driven priority suggestions. Automated scheduling using machine learning algorithms.</p>
+                <p>Python • TensorFlow • Flask • React • MongoDB</p>
+            </div>
+            <div class="project-card">
+                <h3>Blockchain Voting System 🔒</h3>
+                <p>Secure voting system built on blockchain technology, ensuring transparency and immutability of votes.</p>
+                <p>Solidity • Web3.js • Chainlink • MetaMask</p>
+            </div>
+        </div>
+        <h3>Other Notable Projects</h3>
+        <div class="other-projects">
+            <div class="small-project">
+                <h4>Real-Time Chat Application</h4>
+                <p>WebSocket-based chat app with real-time messaging, file sharing, and group chat.</p>
+                <p>Socket.io • React • Node</p>
+            </div>
+            <div class="small-project">
+                <h4>Data Visualization Dashboard</h4>
+                <p>Interactive dashboard for data analysis with charts, graphs, and real-time data from various sources.</p>
+                <p>D3.js • React • Node</p>
+            </div>
+            <div class="small-project">
+                <h4>Mobile Weather App</h4>
+                <p>Cross-platform mobile application providing accurate weather forecasts with location-based features.</p>
+                <p>React Native • API • Redux</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p class="contact-subtitle">Let's start a conversation and explore possibilities together.</p>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <p><strong>Email:</strong> premrajrajput145@gmail.com</p>
+                <p><strong>Phone:</strong> +91 85915 33630</p>
+                <p><strong>Location:</strong> Mumbai, Maharahastra, India</p>
+                <div class="social-icons">
+                    <!-- Add social icons here, e.g., LinkedIn, GitHub, etc. -->
+                    <a href="#">🔗</a>
+                    <a href="#">🐙</a>
+                    <a href="#">🐦</a>
+                </div>
+            </div>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>My Portfolio</h3>
+                <p>Computer Science & Engineering Student<br>Focused on creating innovative solutions.</p>
+            </div>
+            <div class="footer-middle">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <h3>Contact Info</h3>
+                <p>premrajrajput145@gmail.com<br>+91 85915 33630<br>Mumbai, Maharahastra India</p>
+            </div>
+        </div>
+        <p class="copyright">© 2025 Prem Rajput. All rights reserved.<br></p>
+    </footer>
+</body>
+</html>

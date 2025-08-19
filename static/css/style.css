@@ -1,0 +1,287 @@
+/* static/css/style.css - CSS for exact UI replication */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #000, #1a1a1a);
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background: #000;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.logo-circle {
+    width: 100px;
+    height: 100px;
+    background: #00bfff;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.download-btn {
+    background: #00bfff;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, #1a1a1a, #333);
+}
+
+h2 {
+    color: #00bfff;
+    font-size: 2.5em;
+}
+
+.about-text {
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.about-icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.icon-card {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.icon {
+    font-size: 2em;
+    background: #00bfff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    color: #000;
+}
+
+.skills-subtitle {
+    margin-bottom: 40px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+}
+
+.skill-category {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.progress-bar span {
+    width: 150px;
+    text-align: left;
+}
+
+.bar {
+    flex: 1;
+    background: #555;
+    height: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.bar div {
+    background: linear-gradient(to right, #800080, #00bfff);
+    height: 100%;
+    border-radius: 5px;
+}
+
+.tech-title {
+    margin: 40px 0 20px;
+}
+
+.tech-bubbles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tech-bubbles span {
+    background: #333;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+.projects-subtitle {
+    margin-bottom: 40px;
+}
+
+.featured-projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.project-card {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.project-tech {
+    font-size: 0.8em;
+    color: #aaa;
+}
+
+.other-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.small-project {
+    background: #333;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.contact-subtitle {
+    margin-bottom: 40px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-info p {
+    text-align: left;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+input, textarea {
+    background: #333;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+button {
+    background: #00bfff;
+    border: none;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #1a1a1a;
+    padding: 50px 20px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto 20px;
+}
+
+.footer-left, .footer-middle, .footer-right {
+    text-align: left;
+}
+
+.footer-middle ul {
+    list-style: none;
+    padding: 0;
+}
+
+.copyright {
+    font-size: 0.8em;
+    color: #aaa;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .skills-grid, .about-icons, .contact-grid, .other-projects, .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
