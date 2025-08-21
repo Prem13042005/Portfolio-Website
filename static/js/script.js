@@ -1,5 +1,3 @@
-// static/js/script.js - JavaScript for interactivity
-
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('contact-form');
 
@@ -43,3 +41,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+// Tawk.to script for live chat
+var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+(function () {
+    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/68a6c3d98ec2ab192424a503/1j35mq37d';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
+})();
