@@ -1,5 +1,3 @@
--- Database Setup Script - Run this in MySQL to create the database and table
-
 CREATE DATABASE IF NOT EXISTS portfolio_db;
 
 USE portfolio_db;

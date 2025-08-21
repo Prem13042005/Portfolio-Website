@@ -1,12 +1,10 @@
-# app.py - Backend with Flask and MySQL
-
 from flask import Flask, render_template, request, jsonify
 import mysql.connector
 from mysql.connector import Error
 
 app = Flask(__name__)
+# Database configuration
 
-# Database configuration - Update with your MySQL credentials
 DB_CONFIG = {
     'host': 'localhost',
     'database': 'portfolio_db',
@@ -53,5 +51,6 @@ def contact():
             cursor.close()
             connection.close()
 
+# Run the Flask application
 if __name__ == '__main__':
     app.run(debug=True)
